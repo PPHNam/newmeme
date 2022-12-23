@@ -16,6 +16,8 @@ public:
 	Sanpham(const Sanpham& tmp);
 	~Sanpham();
 	int getGia();
+	string getTenDanhmuc();
+	int getSoluong();
 	void Nhap();
 	void Xuat();
 	void setSoluong(int t);

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cacdanhmuc.cpp" />
+    <ClCompile Include="Cuahang.cpp" />
     <ClCompile Include="Danhmuc.cpp" />
     <ClCompile Include="Donhang.cpp" />
     <ClCompile Include="Function.cpp" />
@@ -151,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CacDanhmuc.h" />
+    <ClInclude Include="Cuahang.h" />
     <ClInclude Include="Danhmuc.h" />
     <ClInclude Include="Donhang.h" />
     <ClInclude Include="Giohang.h" />

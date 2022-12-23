@@ -21,4 +21,11 @@ public:
 	~Khachhang();
 	void Nhap();
 	void Xuat();
+	void setGiohang(Giohang gh);
+	void setDonhang(Donhang dh);
+	string getDOB();
+	Giohang getGiohang();
+	Donhang getDonhang();
+	string getName();
+	string getAddr();
 };

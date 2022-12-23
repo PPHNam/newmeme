@@ -43,7 +43,7 @@ void Sanpham::Nhap()
 void Sanpham::Xuat()
 {
 	cout << "Ten san pham: " << this->name << endl;
-	cout << "Loai San pham: "; this->loaisp.Xuat();
+	cout << "Loai San pham - "; this->loaisp.Xuat();
 	cout << "Gia: " << this->gia << endl;
 	cout << "So Luong: " << this->soluong << endl;
 }
@@ -64,4 +64,14 @@ void Sanpham::setGia(int gia)
 void Sanpham::setDanhmuc(string name)
 {
 	this->loaisp.setName(name);
+}
+
+string Sanpham::getTenDanhmuc()
+{
+	return this->loaisp.getName();
+}
+
+int Sanpham::getSoluong()
+{
+	return this->soluong;
 }
